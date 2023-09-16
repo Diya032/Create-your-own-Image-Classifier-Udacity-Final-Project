@@ -102,5 +102,8 @@ The predict.py script allows users to load a JSON file that maps the class value
 The predict.py script allows users to use the GPU to calculate the predictions
 
 ### Commands to run in terminal
-python Train.py --data_dir flowers --gpu cuda
-python Predict.py flowers/test/58/image_02663.jpg checkpoint.pth --top_k 5 --category_names cat_to_name.json --gpu
+
+* `python Train.py --data_dir flowers --gpu cuda`
+* `python Predict.py flowers/test/58/image_02663.jpg checkpoint.pth --top_k 5 --category_names cat_to_name.json --gpu`
+
+
