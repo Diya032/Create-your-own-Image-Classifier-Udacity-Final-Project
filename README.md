@@ -106,4 +106,6 @@ The predict.py script allows users to use the GPU to calculate the predictions
 * `python Train.py --data_dir flowers --gpu cuda`
 * `python Predict.py flowers/test/58/image_02663.jpg checkpoint.pth --top_k 5 --category_names cat_to_name.json --gpu`
 
+![udacity final prj predict pic](https://github.com/Diya032/Create-your-own-Image-Classifier-Udacity-Final-Project/assets/99545441/90b0843d-a630-497c-b0d8-f71f9cbd0269)
+
 
